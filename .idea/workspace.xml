@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f5abc72-4513-4a8d-bf90-a295e7ecb862" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/client/target/" />
+    <ignored path="$PROJECT_DIR$/server/target/" />
+    <ignored path="$PROJECT_DIR$/rpcapi/target/" />
+    <ignored path="$PROJECT_DIR$/rpc-api/target/" />
+    <ignored path="$PROJECT_DIR$/rpc-netty/target/" />
+    <ignored path="$PROJECT_DIR$/hello-service-api/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/nameservice/LocalFileNameService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="902">
+              <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/serialize/SerializeSupport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+              <folding>
+                <element signature="e#1239#1240#0" expanded="true" />
+                <element signature="e#1293#1294#0" expanded="true" />
+                <element signature="e#2084#2085#0" expanded="true" />
+                <element signature="e#2116#2117#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/serialize/impl/MetadataSerializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="77" column="40" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3721#3722#0" expanded="true" />
+                <element signature="e#3763#3764#0" expanded="true" />
+                <element signature="e#3827#3828#0" expanded="true" />
+                <element signature="e#3864#3865#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/serialize/Serializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/software/installBag/java/jdk1.8.0_101/src.zip!/java/util/Map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4070">
+              <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/software/installBag/java/jdk1.8.0_101/src.zip!/java/io/RandomAccessFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9042">
+              <caret line="435" column="30" selection-start-line="435" selection-start-column="30" selection-end-line="435" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/software/installBag/java/jdk1.8.0_101/jre/lib/rt.jar!/sun/nio/ch/FileChannelImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22748">
+              <caret line="1068" selection-start-line="1068" selection-end-line="1068" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/software/installBag/java/jdk1.8.0_101/jre/lib/rt.jar!/sun/nio/ch/FileDispatcherImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/software/installBag/java/jdk1.8.0_101/src.zip!/java/nio/channels/FileChannel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6930">
+              <caret line="347" column="24" selection-start-line="347" selection-start-column="24" selection-end-line="347" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/cn/jxufe/rpc/client/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/netty/ResponseInvocation.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/command/Header.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/netty/CommandDecoder.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/netty/ResponseDecoder.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/command/ResponseHeader.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/netty/CommandEncoder.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/netty/RequestEncoder.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/netty/NettyClient.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/TransportClient.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/netty/TransportServer.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/TransportServer.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/InFlightRequests.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/RequestHandler.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/RequestHandlerRegistry.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/netty/RequestDecoder.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/netty/ResponseEncoder.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/netty/RequestInvocation.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/netty/NettyServer.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/client/StubFactory.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/client/ServiceStub.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/client/stubs/RpcRequest.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/client/ServiceTypes.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/client/RequestIdSupport.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/client/stubs/AbstractStub.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/client/DynamicStubFactory.java" />
+        <option value="$PROJECT_DIR$/rpc-api/src/main/java/cn/jxufe/rpc/spi/ServiceSupport.java" />
+        <option value="$PROJECT_DIR$/rpc-api/src/main/java/cn/jxufe/rpc/spi/ServiceLoadException.java" />
+        <option value="$PROJECT_DIR$/rpc-api/src/main/java/cn/jxufe/rpc/NameService.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/nameservice/Metadata.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/nameservice/LocalFileNameService.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/server/ServiceProviderRegistry.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/serialize/impl/RpcRequestSerializer.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/serialize/impl/MetadataSerializer.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/NettyRpcAccessPoint.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/resources/META-INF.services/cn.jxufe.rpc.client.StubFactory" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/resources/META-INF.services/cn.jxufe.rpc.NameService" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/resources/META-INF.services/cn.jxufe.rpc.RpcAccessPoint" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/resources/META-INF.services/cn.jxufe.rpc.server.ServiceProviderRegistry" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/resources/META-INF.services/cn.jxufe.rpc.transport.RequestHandler" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/server/RpcRequestHandler.java" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/resources/META-INF.services/cn.jxufe.rpc.transport.TransportClient" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/resources/META-INF.services/cn.jxufe.rpc.transport.TransportServer" />
+        <option value="$PROJECT_DIR$/rpc-netty/src/main/resources/META-INF.services/cn.jxufe.rpc.serialize.Serializer" />
+        <option value="$PROJECT_DIR$/hello-service-api/src/main/java/cn/jxufe/rpc/hello/HelloService.java" />
+        <option value="$PROJECT_DIR$/client/pom.xml" />
+        <option value="$PROJECT_DIR$/client/src/main/java/cn/jxufe/rpc/client/Client.java" />
+        <option value="$PROJECT_DIR$/server/pom.xml" />
+        <option value="$PROJECT_DIR$/server/src/main/java/cn/jxufe/rpc/server/HelloServiceImpl.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/cn/jxufe/rpc/server/Server.java" />
+        <option value="$PROJECT_DIR$/rpc-api/src/main/java/cn/jxufe/rpc/RpcAccessPoint.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/software/study/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\software\study\apache-maven-3.5.4\conf\settings_product.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rpc-netty" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rpc-netty" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1340" />
+    <option name="height" value="965" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="task-rpc-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-rpc-framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-rpc-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-rpc-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-rpc-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-rpc-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-rpc-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-rpc-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-rpc-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-rpc-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-rpc-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-rpc-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-rpc-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-rpc-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-rpc-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-rpc-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-rpc-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-rpc-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-rpc-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-rpc-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-rpc-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-rpc-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-rpc-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-rpc-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="stubs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-rpc-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-rpc-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="transport" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-rpc-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-rpc-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-rpc-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-rpc-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-rpc-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-rpc-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-rpc-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-rpc-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task-rpc-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task-rpc-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/资料/在线考试/tkst" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="D:/software/installBag/study/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.29390356" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f5abc72-4513-4a8d-bf90-a295e7ecb862" name="Default Changelist" comment="" />
+      <created>1587564152708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587564152708</updated>
+      <workItem from="1587564154366" duration="2250000" />
+      <workItem from="1587600137452" duration="17514000" />
+      <workItem from="1587623620249" duration="9730000" />
+      <workItem from="1587652471085" duration="2707000" />
+      <workItem from="1587684683016" duration="15773000" />
+      <workItem from="1587701841987" duration="8912000" />
+      <workItem from="1588987560981" duration="11260000" />
+      <workItem from="1589117689958" duration="1335000" />
+      <workItem from="1589160100834" duration="599000" />
+      <workItem from="1589266680377" duration="874000" />
+      <workItem from="1589342231597" duration="659000" />
+      <workItem from="1589534090444" duration="599000" />
+      <workItem from="1589604728118" duration="1794000" />
+      <workItem from="1589719695848" duration="904000" />
+      <workItem from="1589805960040" duration="1206000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="76116000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992928" visible="true" weight="0.28284183" />
+      <window_info id="Structure" order="1" sideWeight="0.5007072" side_tool="true" weight="0.17158177" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Designer" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3069307" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="JRebel Console" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Executor" order="13" />
+      <window_info anchor="bottom" id="MyBatis Log" order="14" />
+      <window_info anchor="bottom" id="Tail" order="15" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32171583" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/netty/NettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/installBag/java/jdk1.8.0_101/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="1093" column="13" selection-start-line="1093" selection-start-column="13" selection-end-line="1093" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/server.java" />
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/command/ResponseHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/client/ServiceTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/serialize/impl/StringSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/serialize/impl/RpcRequestSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/resources/META-INF.services/cn.jxufe.rpc.client.StubFactory">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/resources/META-INF.services/cn.jxufe.rpc.NameService">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/resources/META-INF.services/cn.jxufe.rpc.RpcAccessPoint">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/server/ServiceProviderRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/resources/META-INF.services/cn.jxufe.rpc.server.ServiceProviderRegistry">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/RequestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/resources/META-INF.services/cn.jxufe.rpc.transport.RequestHandler">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="20" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/server/RpcRequestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2633#2634#0" expanded="true" />
+            <element signature="e#2685#2686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-api/src/main/java/cn/jxufe/rpc/spi/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/resources/META-INF.services/cn.jxufe.rpc.transport.TransportClient">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/resources/META-INF.services/cn.jxufe.rpc.transport.TransportServer">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/resources/META-INF.services/cn.jxufe.rpc.serialize.Serializer">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="18" column="21" selection-start-line="14" selection-start-column="8" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-service-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-service-api/src/main/java/cn/jxufe/rpc/hello/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="772">
+          <caret line="74" column="66" selection-start-line="74" selection-start-column="66" selection-end-line="74" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/cn/jxufe/rpc/server/HelloServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/cn/jxufe/rpc/server/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="27" column="61" lean-forward="true" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/TransportClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/Transport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/transport/netty/NettyTransport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/client/stubs/AbstractStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/client/stubs/RpcRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/NettyRpcAccessPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/client/DynamicStubFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/client/StubFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-api/src/main/java/cn/jxufe/rpc/NameService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-api/src/main/java/cn/jxufe/rpc/RpcAccessPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="41" column="52" lean-forward="true" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/installBag/java/jdk1.8.0_101/jre/lib/rt.jar!/sun/nio/ch/NativeDispatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/installBag/java/jdk1.8.0_101/jre/lib/rt.jar!/sun/nio/ch/IOUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="196" column="15" selection-start-line="196" selection-start-column="15" selection-end-line="196" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/nameservice/Metadata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/installBag/java/jdk1.8.0_101/src.zip!/java/nio/channels/Channel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="59" column="6" lean-forward="true" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/nameservice/LocalFileNameService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/serialize/SerializeSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding>
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#2084#2085#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/serialize/Serializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/installBag/java/jdk1.8.0_101/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4070">
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/installBag/java/jdk1.8.0_101/src.zip!/java/io/RandomAccessFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9042">
+          <caret line="435" column="30" selection-start-line="435" selection-start-column="30" selection-end-line="435" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/installBag/java/jdk1.8.0_101/jre/lib/rt.jar!/sun/nio/ch/FileChannelImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22748">
+          <caret line="1068" selection-start-line="1068" selection-end-line="1068" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/installBag/java/jdk1.8.0_101/jre/lib/rt.jar!/sun/nio/ch/FileDispatcherImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/installBag/java/jdk1.8.0_101/src.zip!/java/nio/channels/FileChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6930">
+          <caret line="347" column="24" selection-start-line="347" selection-start-column="24" selection-end-line="347" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/cn/jxufe/rpc/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc-netty/src/main/java/cn/jxufe/rpc/serialize/impl/MetadataSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="77" column="40" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3721#3722#0" expanded="true" />
+            <element signature="e#3763#3764#0" expanded="true" />
+            <element signature="e#3827#3828#0" expanded="true" />
+            <element signature="e#3864#3865#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>task-rpc-framework</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29390356" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

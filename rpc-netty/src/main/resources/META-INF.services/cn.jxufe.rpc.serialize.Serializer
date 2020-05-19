@@ -1,0 +1,3 @@
+cn.jxufe.rpc.serialize.impl.StringSerializer
+cn.jxufe.rpc.serialize.impl.MetadataSerializer
+cn.jxufe.rpc.serialize.impl.RpcRequestSerializer
